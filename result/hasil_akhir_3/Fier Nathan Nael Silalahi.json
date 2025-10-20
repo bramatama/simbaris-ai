@@ -1,0 +1,33 @@
+{
+    "full_name": "Fier Nathan Nael Silalahi",
+    "words": [
+        {
+            "text": "Fier",
+            "x": 983,
+            "y": 1475,
+            "w": 48,
+            "h": 20
+        },
+        {
+            "text": "Nathan",
+            "x": 1039,
+            "y": 1474,
+            "w": 88,
+            "h": 21
+        },
+        {
+            "text": "Nael",
+            "x": 1136,
+            "y": 1474,
+            "w": 58,
+            "h": 21
+        },
+        {
+            "text": "Silalahi",
+            "x": 1201,
+            "y": 1474,
+            "w": 91,
+            "h": 22
+        }
+    ]
+}
