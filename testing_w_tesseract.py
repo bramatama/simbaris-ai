@@ -7,7 +7,7 @@ import pytesseract
 
 input_path = "./templates/Template 1_clearedText.png"
 
-output_folder = "./result/(1_1)hasil_dengan_nama_4/"
+output_folder = "./result/(1_1)hasil_dengan_nama_5/"
 
 cascade_file = "haarcascade_frontalface_default.xml"
 cascade_url = "https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml"
