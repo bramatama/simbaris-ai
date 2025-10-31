@@ -3,25 +3,21 @@ import numpy as np
 import os
 
 # --- 1. PENGATURAN ---
-# Ganti dengan path lengkap ke file gambar Anda
-input_path = "./templates/Template 3.png"
+input_path = "./templates/Template Form Foto Portrait.jpg"
 # Ganti dengan nama folder tujuan Anda
-output_folder = "./uploads/testing 5/"
+output_folder = "./result_2.0/test_no_photo/"
 
 # --- PARAMETER FILTER (Silakan sesuaikan nilai ini) ---
-# Filter berdasarkan luas kontur dalam piksel
 MIN_AREA = 20000  # Luas area minimal yang dianggap sebagai foto
 MAX_AREA = 150000 # Luas area maksimal untuk menghindari objek besar yang bukan foto
 
 # Filter berdasarkan rasio aspek (lebar / tinggi)
-# Pas foto 3x4 memiliki rasio aspek 0.75. Kita beri rentang toleransi.
 MIN_ASPECT_RATIO = 0.65
 MAX_ASPECT_RATIO = 0.85
 # --- AKHIR PENGATURAN ---
 
 
 # --- 2. PERSIAPAN ---
-# Membuat folder output jika belum ada
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
     print(f"Folder '{output_folder}' telah dibuat.")
